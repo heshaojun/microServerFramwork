@@ -1,0 +1,29 @@
+server:
+  port: 8080
+spring:
+  dubbo:
+    application:
+      name: fund
+      environment: test
+    registry:
+      protocol: zookeeper
+      address: 127.0.0.1
+      port: 2181
+      register: true
+    protocol:
+      name: dubbo
+      port: 9090
+    consumer:
+      timeout: 6000
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    dbcp2:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: root
+      url: jdbc:mysql://127.0.0.1:3306/test_db?useUnicode=true&characterEncoding=utf8
+      initial-size: 10
+      max-idle: 100
+      min-idle: 10
+      max-total: 50
+  mybatis:

@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.htjc.dubbo.DubboAutoConfiguration,\
+com.htjc.dubbo.DubboProviderAutoConfiguration,\
+com.htjc.dubbo.DubboConsumerAutoConfiguration
+
+org.springframework.context.ApplicationListener=\
+com.htjc.dubbo.event.DubboBannerApplicationListener

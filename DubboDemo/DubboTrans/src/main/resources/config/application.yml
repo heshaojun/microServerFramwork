@@ -1,0 +1,16 @@
+spring:
+  dubbo:
+    application:
+      name: fund
+      environment: test
+    registry:
+      protocol: zookeeper
+      address: 192.168.0.115
+      port: 2181
+      register: true
+    protocol:
+      name: dubbo
+      port: 9091
+    consumer:
+      timeout: 6000
+

@@ -5,7 +5,7 @@ spring:
       environment: test
     registry:
       protocol: zookeeper
-      address: 192.168.0.115
+      address: 127.0.0.1
       port: 2181
       register: true
     protocol:

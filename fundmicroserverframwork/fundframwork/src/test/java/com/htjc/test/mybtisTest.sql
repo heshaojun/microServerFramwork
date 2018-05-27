@@ -1,0 +1,2 @@
+create table students(id_no varchar(20) primary key,name varchar(10),sex varchar(5),age float,guarder_id varchar(20) );
+create table guarders(id varchar(20) primary key ,name varchar(10) ,sex varchar(5) ,relation varchar(20) ,phone varchar(20) );

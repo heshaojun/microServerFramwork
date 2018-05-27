@@ -1,0 +1,8 @@
+spring:
+  memcached:
+    servers: 192.168.0.107:11211
+    weights: 1
+    connectionPoolSize: 2
+    commandFactory: BINARY
+    sessionLocator: KETAMA
+    failureMode: false

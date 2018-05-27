@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    dbcp2:
+      username: root
+      password: heshaojun
+      url: jdbc:mysql://127.0.0.1:3306/testdb?useUnicode=true&characterEncoding=utf8
+      driver-class-name: com.mysql.jdbc.Driver
+      max-total: 100
+      max-wait-millis: 1000
+      min-idle: 10
+      initial-size: 10
+  mybatis:
+    typeHandlersPackage:
+    executorType: SIMPLE
+    configuration:
+      cacheEnabled: true

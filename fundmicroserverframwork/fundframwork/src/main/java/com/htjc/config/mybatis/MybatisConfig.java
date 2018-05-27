@@ -1,14 +1,17 @@
 package com.htjc.config.mybatis;
 
-import com.htjc.mybatis.annotation.EnableMybatisConfiguration;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringBootConfiguration;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.Profile;
 
 /**
  * @Author heath
  * @Date 2018/5/26
  * @describe
  */
+//@Profile("mybatis")
 @SpringBootConfiguration
-@EnableMybatisConfiguration
+//@MapperScan("com.htjc.config.mybatis.mapper")
 public class MybatisConfig {
 }

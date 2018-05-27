@@ -10,7 +10,6 @@ spring:
       register: true
     protocol:
       name: dubbo
-      port: 9090
+      port: 9091
     consumer:
       timeout: 6000
-

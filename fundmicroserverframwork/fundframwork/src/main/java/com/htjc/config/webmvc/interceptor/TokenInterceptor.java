@@ -1,4 +1,4 @@
-package com.htjc.config.mvc.interceptor;
+package com.htjc.config.webmvc.interceptor;
 
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 

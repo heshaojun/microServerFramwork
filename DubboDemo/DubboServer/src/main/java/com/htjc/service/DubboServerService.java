@@ -1,6 +1,6 @@
 package com.htjc.service;
 
-import com.htjc.business.ServiceHandle;
+import com.htjc.function.ServiceHandle;
 import com.htjc.vo.DubboServerReqVo;
 import com.htjc.vo.DubboServerRespVo;
 import org.springframework.beans.factory.annotation.Autowired;

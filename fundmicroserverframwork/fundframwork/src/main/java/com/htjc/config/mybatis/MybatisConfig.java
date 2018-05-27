@@ -10,8 +10,6 @@ import org.springframework.context.annotation.Profile;
  * @Date 2018/5/26
  * @describe
  */
-//@Profile("mybatis")
 @SpringBootConfiguration
-//@MapperScan("com.htjc.config.mybatis.mapper")
 public class MybatisConfig {
 }

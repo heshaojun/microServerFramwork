@@ -1,4 +1,4 @@
-package com.htjc.business;
+package com.htjc.function;
 
 import com.htjc.vo.DubboServerReqVo;
 import com.htjc.vo.DubboServerRespVo;
